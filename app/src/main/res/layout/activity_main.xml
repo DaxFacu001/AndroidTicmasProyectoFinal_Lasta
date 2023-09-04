@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:inputType="text"
-        android:hint="number 1"
+        android:hint="Ingrese el primer valor"
         android:textColorHint="@color/black"
         android:textAlignment="center"
         />
@@ -32,7 +32,7 @@
         android:layout_height="48dp"
         android:inputType="text"
         android:textColorHint="@color/black"
-        android:hint="number 2"
+        android:hint="Ingrese el segundo valor"
         android:textAlignment="center"
         />
 
@@ -47,7 +47,7 @@
         android:id="@+id/textResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Resultado: 0"
+        android:text="¿Son iguales?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
